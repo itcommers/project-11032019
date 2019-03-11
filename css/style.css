@@ -1,0 +1,264 @@
+@font-face{
+font-family: 'Ubuntu';
+src: url('../lib/fonts/Ubuntu-Medium.ttf');
+}
+body {
+	margin: 0;
+	font-family: 'Ubuntu', Arial, sans-sefir;
+	font-size: 20px;
+	color: #fff;
+	width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+h1, h2 {
+	text-transform: uppercase;
+}
+.line {
+	display:inline;
+}
+.right-block {
+	padding-bottom: 25px;
+}
+.nav {
+	display: inline;
+}
+	.main-menu {
+	display: flex;	
+}
+.main-menu a {
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #333333;
+	text-transform: uppercase;
+	padding: 45px 50px 25px 0px;
+}
+
+.right_column {
+	width: 100%;
+	background-color: #ef7f1a;
+	text-align: center;
+}
+
+.right_column a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.right-tape {
+	padding-top: 37px;
+}
+
+.main-menu li {
+	list-style: none;
+}
+.section {
+	background-color: #333333;
+}
+.section-white {
+	background-color: #ffffff;
+	color: #333333;
+}
+.photo-column-1 {
+	height: 130px;
+	background-image: url(../img/members/member-1.png);
+	background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.photo-column-2 {
+	height: 130px;
+	background-image: url(../img/members/member-2.png);
+	background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.photo-column-3 {
+	height: 130px;
+	background-image: url(../img/members/member-3.png);
+	background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.photo-column-4 {
+	height: 130px;
+	background-image: url(../img/members/member-4.png);
+	background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.photo-column-5 {
+	height: 130px;
+	background-image: url(../img/members/member-5.png);
+	background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.photo-column-6 {
+	height: 130px;
+	background-image: url(../img/members/member-1.png);
+	background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.photo-column-7 {
+	height: 130px;
+	background-image: url(../img/members/member-2.png);
+	background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.photo-column-8 {
+	height: 130px;
+	background-image: url(../img/members/member-3.png);
+	background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.photo-column-9 {
+	height: 130px;
+	background-image: url(../img/members/member-4.png);
+	background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.photo-column-10 {
+	height: 130px;
+	background-image: url(../img/members/member-5.png);
+	background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.name-column {
+
+}
+
+.member-block {
+	padding-top: 60px;
+}
+
+.name-member {
+	color: #ef7f1a;
+	text-transform: uppercase;
+	padding-bottom: 26px;
+}
+.about_member {
+	padding-left: 30px;
+}
+
+.line-decor {
+width: 111px;
+border-top: 1px solid #ef7f1a;
+padding-top: 23px;
+}
+.member-photo {
+	height: 450px;
+	background-image: url(../img/Layer_2.png);
+	background-repeat: no-repeat;
+  background-size: 100% auto;
+  
+}
+
+.viev {
+margin-top: 30px;
+}
+.rectangle-left-up {
+background-image: url(../img/Rectangle-left-up.png);
+background-repeat: no-repeat;
+}
+.decor-members-info {
+	background-color: #000;
+}
+.rectangle-right-up {
+	display: flex;
+	justify-content: flex-end;
+}
+.rectangle-left-down {
+	background-image: url(../img/Rectangle-left-down.png);
+background-repeat: no-repeat;
+}
+.rectangle-right-down {
+	display: flex;
+	justify-content: flex-end;
+}
+.title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+}
+.biography-1 {
+	padding-left: 40px;
+}
+.biography-2 {
+	padding-left: 20px;
+	padding-right: 40px;
+}
+.down-decor {
+	padding-bottom: 59px;
+}
+
+.button-vote-1 {
+	height: 100px;
+	background-color: #ef7f1a;
+}
+.button-vote-2 {
+	height: 100px;
+	background-color: #ef7f1a;
+	border-botton: 3px solid #ef7f1a;
+}
+.button-vote-2-text {
+	padding-left: 88px;
+}
+button:active, button:focus {
+  outline: none !important;
+}
+button::-moz-focus-inner {
+  border: 0 !important;
+}
+.vote-1 {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.vote {
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 700;
+	color: #ffffff;
+
+}
+.vote-numbers {
+color: #ef7f1a;
+font-size: 32px;
+font-weight: 700;
+}
+.account {
+	font-size: 14px;
+	font-weight: 700;
+}
+.nav-footer a {
+color: #333333;
+font-size: 14px;
+font-weight: 700;
+}
+.main-menu-footer {
+	display: flex;	
+}
+.main-menu-footer a {
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	color: #333333;
+	text-transform: uppercase;
+}
+
+
+.footer-info {
+color: #333333;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+}
+
+button {
+	border: none;
+}
+

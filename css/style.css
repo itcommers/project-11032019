@@ -11,7 +11,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
-h1, h2 {
+h1, h2, h3 {
 	text-transform: uppercase;
 }
 .line {
@@ -20,10 +20,7 @@ h1, h2 {
 .right-block {
 	padding-bottom: 25px;
 }
-.nav {
-	display: inline;
-}
-	.main-menu {
+.main-menu {
 	display: flex;	
 }
 .main-menu a {
@@ -239,7 +236,8 @@ font-size: 14px;
 font-weight: 700;
 }
 .main-menu-footer {
-	display: flex;	
+	display: flex;
+	list-style-type: none;
 }
 .main-menu-footer a {
 	text-decoration: none;
@@ -249,8 +247,6 @@ font-weight: 700;
 	color: #333333;
 	text-transform: uppercase;
 }
-
-
 .footer-info {
 color: #333333;
 font-size: 12px;
@@ -261,4 +257,107 @@ line-height: 14px;
 button {
 	border: none;
 }
+/*=============== stories =============*/
+.main-title {
+color: #ef7f1a;
+font-size: 32px;
+font-weight: 700;
+text-transform: uppercase;
+padding-top: 30px;
+}
+.sort-menu {
+	display: flex;
+	list-style-type: none;
+}
+.sort-menu a {
+display: block;
+color: #ffffff;
+font-size: 14px;
+font-weight: 400;
+text-decoration: none;
+text-transform: uppercase;
+padding-right: 30px;
+padding-top: 40px;
+}
+.card-list {
+padding-bottom: 50px;
+}
+.card-list-1 {
+padding-top: 30px;
+}
+
+.member-photo-card-1 {
+position:relative;
+}
+.member-photo-card-1 img {
+	position:absolute;
+	max-width: 220px;
+}
+.name-mamber-card {
+color: #ef7f1a;
+font-size: 14px;
+font-weight: 700;
+padding-top: 29px;
+}
+.title-stories-card {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 18px;
+	padding-top: 20px;
+}
+.text-about-card {
+color: #ffffff;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+}
+.account-total-likes {
+color: #ef7f1a;
+font-size: 32px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.up-rectangle-card {
+min-height: 60px;
+background-image: url(../img/Rectangle-right-up.png);
+background-position: right top; 
+background-repeat: no-repeat;
+padding-top: 29px;
+}
+.date-time-card {
+color: #ef7f1a;
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+}
+.down-rectangle-card {
+min-height: 60px;
+background-image: url(../img/Rectangle-right-down.png);
+background-position: right bottom; 
+background-repeat: no-repeat;
+padding-top: 150px;
+}
+.view-card {
+color: #ffffff;
+font-size: 20px;
+font-weight: 400;
+}
+.viev-block-card {
+padding-bottom: 35px;
+}
+.page-nav a {
+color: #ffffff;
+font-size: 22px;
+font-weight: 400;
+text-decoration: none;
+padding-right: 20px;
+
+}
+
+.page-nav-block {
+padding-bottom: 100px;
+padding-top: 80px;
+}
+
 

@@ -46,11 +46,215 @@ height:0px
 width: 4px;
 }
 
+/*for tablet*/
+
+@media (max-width: 800px) {
+.hide-1 {
+    display: none;
+  }
+.name-member {
+	font-size: 20px;
+}
+.personal-inform p {
+font-size: 14px;
+}
+.title {
+	font-size: 16px;
+}
+.biography-1, .biography-2 p{
+	font-size: 14px;
+}
+.biography-2 p {
+padding-left: 20px;
+}
+.vote p{
+	font-size: 20px;
+}
+.button-vote-2-text {
+	padding-left: 20px;
+}
+.right-column-space {
+	padding-left: 15px;
+}
+.zone-vote {
+	padding-bottom: 50px;
+}
+
+/*  stories*/
+
+.main-title {
+padding-left: 15px;
+}
+.sort-menu a {
+padding-top: 10px;
+}
+.member-photo-card-1 img {
+padding-left: 15px;
+}
+.text-about-card, .name-mamber-card,  .title-stories-card {
+padding-left: 40px;
+}
+
+
+.text-about-card {
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+color: #ffffff;	
+}
+.card-block img {
+padding-left: 40px;
+}
+
+.member-photo-card-1 img {
+padding-top: 10px;
+max-width: 290px;
+}
+.viev-block-card {
+padding-bottom: 15px;
+}
+.down-rectangle-card {
+	padding-top: 150px;
+	margin-top: 10px;
+}
+.up-rectangle-card {
+margin-top: 10px;
+}
+.main-title {
+font-size: 32px;
+}
+
+}
+
+/* for desktop*/
+
+
+@media (min-width: 800px) {
+ .hide-2 {
+    display: none;
+  }
+ .button-vote-2-text {
+	padding-left: 80px;
+}
+.zone-vote {
+	padding-bottom: 150px;
+}
+
+/* stories */
+
+.sort-menu a {
+padding-top: 40px;
+}
+.name-mamber-card {
+margin-top: 10px;
+}
+.member-photo-card-1 img {
+max-width: 220px;
+margin-top: 20px;
+}
+.viev-block-card {
+padding-bottom: 25px;
+}
+.down-rectangle-card {
+	padding-top: 100px;
+}
+.main-title {
+font-size: 32px;
+}
+.sort-menu a {
+font-size: 14px;
+}
+
+}
+
+/*mobile*/
+@media (max-width: 400px) {
+.hide-logo {
+display: none;
+}
+.about-bottom {
+	padding-top: 350px;
+}
+.mob-space {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.space-left {
+	margin-left: 30px;
+	
+}
+.main-title {
+color: #ef7f1a;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+padding-top: 24px;
+}
+.sort-menu a {
+font-size: 9px;
+}
+/*  stories */
+.member-photo-card-1 img {
+padding-top: 10px;
+max-width: 150px;
+}
+.name-mamber-card {
+	
+	padding-left: 160px;
+	padding-bottom: 20px;
+}
+.name-mamber-card-mob {
+padding-top: 10px;
+}
+.hide-card-mob {
+display: none;
+}
+.date-time-card-mob {
+padding-left: 180px;
+padding-top: 20px;
+color: #ef7f1a;
+font-size: 10px;
+font-weight: 400;
+text-transform: uppercase;
+display: inline;
+}
+.account-total-likes-mob {
+color: #ef7f1a;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.mob-likes  {
+	margin-left: 130px;
+}
+.view-card-mob {
+	color: #ffffff;
+font-size: 14px;
+font-weight: 400;
+}
+.hamburger {
+	margin-right: 10px;
+}
+}
+
+
+
+@media (min-width: 400px) {
+ .hide-logo-mob, .hide-desk-tab  {
+    display: none;
+}
+}
+
+
+
 .line {
 	display:inline;
 }
 .right-block {
 	padding-bottom: 25px;
+}
+.font-700 {
+font-weight: 700;
 }
 .main-menu {
 	display: flex;	
@@ -104,74 +308,8 @@ position:relative;
 }
 .photo-column img {
 	position:absolute;
-	max-width: 130px;
+	max-width: 95%;
 }
-
-
-.photo-column-1 {
-	height: 130px;
-	background-image: url(../img/members/member-1.png);
-	background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-
-.photo-column-2 {
-	height: 130px;
-	background-image: url(../img/members/member-2.png);
-	background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-
-.photo-column-3 {
-	height: 130px;
-	background-image: url(../img/members/member-3.png);
-	background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-.photo-column-4 {
-	height: 130px;
-	background-image: url(../img/members/member-4.png);
-	background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-.photo-column-5 {
-	height: 130px;
-	background-image: url(../img/members/member-5.png);
-	background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-.photo-column-6 {
-	height: 130px;
-	background-image: url(../img/members/member-1.png);
-	background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-.photo-column-7 {
-	height: 130px;
-	background-image: url(../img/members/member-2.png);
-	background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-.photo-column-8 {
-	height: 130px;
-	background-image: url(../img/members/member-3.png);
-	background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-.photo-column-9 {
-	height: 130px;
-	background-image: url(../img/members/member-4.png);
-	background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-.photo-column-10 {
-	height: 130px;
-	background-image: url(../img/members/member-5.png);
-	background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-
-
 .member-block {
 	padding-top: 60px;
 }
@@ -181,7 +319,7 @@ position:relative;
 	text-transform: uppercase;
 	padding-bottom: 26px;
 }
-.about_member {
+.about-member {
 	padding-left: 30px;
 }
 
@@ -190,36 +328,36 @@ width: 111px;
 border-top: 1px solid #ef7f1a;
 padding-top: 23px;
 }
-.member-photo {
-	height: 450px;
-	background-image: url(../img/Layer_2.png);
-	background-repeat: no-repeat;
-  background-size: 100% auto;
-  
+
+.member-photo-big {
+position:relative;
+padding-left: 15px;
+}
+.member-photo-big img {
+	position:absolute;
+	max-width: 95%;
 }
 
 .viev {
-margin-top: 30px;
+margin-top: 70px;
 padding-right: 20px;
 }
 .rectangle-left-up {
 background-image: url(../img/Rectangle-left-up.png);
 background-repeat: no-repeat;
 }
-.decor-members-info {
-	background-color: #000;
-}
 
 .decor-left-up {
+margin-left: 15px;
 min-height: 60px;
 background-image: url(../img/Rectangle-left-up.png);
-background-position: left bottom; 
+background-position: left top; 
 background-repeat: no-repeat;
 }
 .decor-right-up {
 min-height: 60px;
 background-image: url(../img/Rectangle-right-up.png);
-background-position: right bottom; 
+background-position: right top; 
 background-repeat: no-repeat;
 }
 .number-views {
@@ -241,7 +379,9 @@ padding-left: 30px;
 }
 .social {
 	padding-bottom: 40px;
-	padding-right: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: 20px;
 }
 .decor-left-down {
 min-height: 60px;
@@ -250,6 +390,7 @@ background-position: left bottom;
 background-repeat: no-repeat;
 }
 .decor-right-down {
+
 min-height: 60px;
 background-image: url(../img/Rectangle-right-down.png);
 background-position: right bottom; 
@@ -272,13 +413,8 @@ padding-bottom: 60px;
 	height: 100px;
 	background-color: #ef7f1a;
 }
-.button-vote-2-text {
-	padding-left: 88px;
-}
-.btn:focus,
-.btn:active {
-  box-shadow: none;
-}
+
+
 button:active, button:focus {
   outline: none !important;
 }
@@ -294,7 +430,7 @@ button::-moz-focus-inner {
 
 .vote {
 	text-transform: uppercase;
-	font-size: 32px;
+	font-size: 30px;
 	font-weight: 700;
 	color: #ffffff;
 
@@ -309,7 +445,8 @@ font-weight: 700;
 	font-weight: 700;
 }
 .zone-vote {
-	padding-bottom: 150px;
+	margin-left: 15px;
+	text-transform: uppercase;
 }
 
 .nav-footer a {
@@ -342,7 +479,6 @@ button {
 /*=============== stories =============*/
 .main-title {
 color: #ef7f1a;
-font-size: 32px;
 font-weight: 700;
 text-transform: uppercase;
 padding-top: 30px;
@@ -354,12 +490,10 @@ padding-top: 30px;
 .sort-menu a {
 display: block;
 color: #ffffff;
-font-size: 14px;
 font-weight: 400;
 text-decoration: none;
 text-transform: uppercase;
 padding-right: 30px;
-padding-top: 40px;
 }
 .card-list {
 padding-bottom: 50px;
@@ -373,7 +507,7 @@ position:relative;
 }
 .member-photo-card-1 img {
 	position:absolute;
-	max-width: 220px;
+
 }
 .name-mamber-card {
 color: #ef7f1a;
@@ -401,33 +535,36 @@ font-weight: 700;
 text-transform: uppercase;
 }
 .up-rectangle-card {
+	margin-right: 10px;
 min-height: 60px;
 background-image: url(../img/Rectangle-right-up.png);
 background-position: right top; 
 background-repeat: no-repeat;
 padding-top: 29px;
 }
+
+.down-rectangle-card {
+margin-right: 10px;
+min-height: 60px;
+background-image: url(../img/Rectangle-right-down.png);
+background-position: right bottom; 
+background-repeat: no-repeat;
+}
+
 .date-time-card {
 color: #ef7f1a;
 font-size: 14px;
 font-weight: 400;
 text-transform: uppercase;
 }
-.down-rectangle-card {
-min-height: 60px;
-background-image: url(../img/Rectangle-right-down.png);
-background-position: right bottom; 
-background-repeat: no-repeat;
-padding-top: 100px;
-}
+
 .view-card {
 color: #ffffff;
 font-size: 20px;
 font-weight: 400;
+
 }
-.viev-block-card {
-padding-bottom: 35px;
-}
+
 .page-nav a {
 color: #ffffff;
 font-size: 22px;
@@ -440,6 +577,7 @@ padding-right: 20px;
 padding-bottom: 100px;
 padding-top: 80px;
 }
+
 .footer-indent {
 	padding-top: 40px;
 }

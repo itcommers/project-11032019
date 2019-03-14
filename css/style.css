@@ -61,7 +61,14 @@ width: 4px;
 .right-column-title p {
 	padding-left: 10px;
 }
-
+.button-vote-2-text a {
+	text-decoration: none;
+	color: #ffffff;
+font-size: 20px;
+font-weight: 700;
+line-height: 22.01px;
+text-transform: uppercase;
+}
 .personal-inform p {
 font-size: 14px;
 }
@@ -170,7 +177,8 @@ padding-right: 20px;
 font-size: 20px;
 }
  .button-vote-2-text {
-	padding-left: 80px;
+	padding-left: 10px;
+	margin-top: 30px;
 }
 .button-vote-2-text img {
 	margin-bottom: 15px;
@@ -190,7 +198,14 @@ color: #ef7f1a;
 font-size: 32px;
 font-weight: 700;
 }
-
+.button-vote-2-text a {
+	text-decoration: none;
+	color: #ffffff;
+font-size: 32px;
+font-weight: 700;
+line-height: 22.01px;
+text-transform: uppercase;
+}
 
 /* stories */
 
@@ -337,6 +352,15 @@ font-size: 16px;
 }
 .button-vote-2-text {
 	padding-left: 10px;
+}
+
+.button-vote-2-text a {
+	text-decoration: none;
+	color: #ffffff;
+font-size: 28px;
+font-weight: 700;
+line-height: 22.01px;
+text-transform: uppercase;
 }
 
 }

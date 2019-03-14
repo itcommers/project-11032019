@@ -14,6 +14,9 @@ body {
 h1, h2, h3 {
 	text-transform: uppercase;
 }
+
+/* right scrollbar  */
+
 ::-webkit-scrollbar-button {
 background-image:url('');
 background-repeat:no-repeat;
@@ -49,12 +52,16 @@ width: 4px;
 /*for tablet*/
 
 @media (max-width: 800px) {
-.hide-1 {
+.hide-mob {
     display: none;
   }
 .name-member {
 	font-size: 20px;
 }
+.right-column-title p {
+	padding-left: 10px;
+}
+
 .personal-inform p {
 font-size: 14px;
 }
@@ -67,12 +74,32 @@ font-size: 14px;
 .biography-2 p {
 padding-left: 20px;
 }
+.viev {
+margin-top: 70px;
+padding-right: 20px;
+}
+
 .vote p{
 	font-size: 20px;
 }
 .button-vote-2-text {
 	padding-left: 20px;
 }
+.button-vote-2 {
+	height: 80px;
+	width: 440px;
+	margin-right: 15px;
+}
+.vote-numbers {
+color: #ef7f1a;
+font-size: 24px;
+font-weight: 700;
+}
+.like-2, .account {
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+
 .right-column-space {
 	padding-left: 15px;
 }
@@ -94,7 +121,6 @@ padding-left: 15px;
 .text-about-card, .name-mamber-card,  .title-stories-card {
 padding-left: 40px;
 }
-
 
 .text-about-card {
 font-size: 14px;
@@ -133,12 +159,38 @@ font-size: 32px;
  .hide-2 {
     display: none;
   }
+  .hide-desk {
+	display: none;
+}
+.viev {
+margin-top: 220px;
+padding-right: 20px;
+}
+.right-column-title p {
+font-size: 20px;
+}
  .button-vote-2-text {
 	padding-left: 80px;
 }
+.button-vote-2-text img {
+	margin-bottom: 15px;
+}
+
+.button-vote-2 {
+	height: 100px;
+	width: 769px;
+}
+
 .zone-vote {
 	padding-bottom: 150px;
 }
+
+.vote-numbers {
+color: #ef7f1a;
+font-size: 32px;
+font-weight: 700;
+}
+
 
 /* stories */
 
@@ -167,7 +219,7 @@ font-size: 14px;
 
 }
 
-/*mobile*/
+/*for mobile*/
 @media (max-width: 400px) {
 .hide-logo {
 display: none;
@@ -181,8 +233,12 @@ padding-bottom: 10px;
 }
 .space-left {
 	margin-left: 30px;
-	
 }
+.viev {
+margin-top: 70px;
+padding-right: 20px;
+}
+
 .main-title {
 color: #ef7f1a;
 font-size: 20px;
@@ -193,6 +249,23 @@ padding-top: 24px;
 .sort-menu a {
 font-size: 9px;
 }
+.button-vote-2 {
+	height: 100px;
+	width: 330px;
+}
+.button-vote-2-text a {
+	padding-bottom: 40px;
+	text-decoration: none;
+	color: #ffffff;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+text-decoration: none;
+}
+.account-block {
+	margin-top: 30px;
+}
+
 /*  stories */
 .member-photo-card-1 img {
 padding-top: 10px;
@@ -244,12 +317,43 @@ font-weight: 400;
     display: none;
 }
 }
+/*  for laptop*/
+@media (min-width: 800px) and (max-width: 1440px) {
+.vote-numbers {
+color: #ef7f1a;
+font-size: 24px;
+font-weight: 700;
+}
+.viev {
+margin-top: 100px;
+padding-right: 20px;
+}
+.right-column-title p {
+font-size: 16px;
+}
+.button-vote-2 {
+	height: 100px;
+	width: 580px;
+}
+.button-vote-2-text {
+	padding-left: 10px;
+}
+
+}
+
 
 
 
 .line {
 	display:inline;
 }
+.right-column-title-poz {
+	display: flex;
+}
+.right-column-arrow {
+	margin-top: 10px;
+}
+
 .right-block {
 	padding-bottom: 25px;
 }
@@ -266,7 +370,7 @@ font-weight: 700;
 	text-decoration: none;
 	color: #333333;
 	text-transform: uppercase;
-	padding: 45px 50px 25px 0px;
+	padding: 12px 50px 0px 0px;
 }
 
 .right_column {
@@ -276,11 +380,10 @@ font-weight: 700;
 }
 .right-column-title p {
 color: #ffffff;
-font-size: 20px;
 font-weight: 700;
 text-transform: uppercase;
 }
-.right-column-title img {
+.right-column-arrow img {
 padding-left: 20px;
 }
 
@@ -292,6 +395,25 @@ padding-left: 20px;
 .right-tape {
 	padding-top: 37px;
 }
+.name-column {
+padding-top: 25px;
+margin-bottom: -10px;
+color: #ffffff;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.like-number {
+margin-bottom: 20px;
+}
+
+.like-number img {
+padding-bottom: 10px;
+}
+
+
+
+
 
 .main-menu li {
 	list-style: none;
@@ -338,10 +460,7 @@ padding-left: 15px;
 	max-width: 95%;
 }
 
-.viev {
-margin-top: 70px;
-padding-right: 20px;
-}
+
 .rectangle-left-up {
 background-image: url(../img/Rectangle-left-up.png);
 background-repeat: no-repeat;
@@ -410,7 +529,6 @@ padding-bottom: 60px;
 	background-color: #ef7f1a;
 }
 .button-vote-2 {
-	height: 100px;
 	background-color: #ef7f1a;
 }
 
@@ -435,11 +553,7 @@ button::-moz-focus-inner {
 	color: #ffffff;
 
 }
-.vote-numbers {
-color: #ef7f1a;
-font-size: 32px;
-font-weight: 700;
-}
+
 .account {
 	font-size: 14px;
 	font-weight: 700;
@@ -449,16 +563,16 @@ font-weight: 700;
 	text-transform: uppercase;
 }
 
-.nav-footer a {
-color: #333333;
-font-size: 14px;
-font-weight: 700;
+.like-2 img {
+margin-bottom: 15px;
 }
+
 .main-menu-footer {
 	display: flex;
 	list-style-type: none;
 }
 .main-menu-footer a {
+	margin-bottom: 45px;
 	text-decoration: none;
 	display: block;
 	font-size: 14px;
@@ -467,6 +581,7 @@ font-weight: 700;
 	text-transform: uppercase;
 }
 .footer-info {
+margin-top: 65px;
 color: #333333;
 font-size: 12px;
 font-weight: 400;

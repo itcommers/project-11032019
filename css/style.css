@@ -280,7 +280,9 @@ text-decoration: none;
 .account-block {
 	margin-top: 30px;
 }
-
+.space-top {
+padding-top: 30px;
+}
 /*  stories */
 .member-photo-card-1 img {
 padding-top: 10px;
@@ -320,9 +322,8 @@ text-transform: uppercase;
 font-size: 14px;
 font-weight: 400;
 }
-.hamburger {
-	margin-right: 10px;
-}
+
+
 }
 
 
@@ -366,7 +367,13 @@ text-transform: uppercase;
 }
 
 
+.hamburger {
+	position: relative;
+}
+.hamburger img {
+	padding-right: 20px;
 
+}
 
 .line {
 	display:inline;

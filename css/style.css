@@ -211,7 +211,6 @@ font-weight: 700;
 	color: #ffffff;
 font-size: 32px;
 font-weight: 700;
-line-height: 22.01px;
 text-transform: uppercase;
 }
 
@@ -406,7 +405,9 @@ padding-left: 20px;
 .hide-card-mob img {
 padding-bottom: 15px;
 }
-
+.main-menu-img {
+display: none;
+}
 
 }
 
